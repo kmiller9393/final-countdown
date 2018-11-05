@@ -1,22 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Final Countdown App"/>
+    <ImageContainer />
+    <Navigate />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import ImageContainer from './components/ImageContainer.vue';
+import Navigate from './components/Navigate.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ImageContainer,
+    Navigate
   }
 };
 </script>
 
 <style>
+html {
+  background-color: navy;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
