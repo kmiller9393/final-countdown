@@ -53,7 +53,10 @@
     "collectCoverage": true,
     "collectCoverageFrom": [
       "**/*.{js,vue}",
-      "!**/node_modules/**"
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!babel.config.js",
+      "!src/main.js"
     ],
     "transform": {
       "^.+\\.vue$": "<rootDir>/node_modules/vue-jest",
