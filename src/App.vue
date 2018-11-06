@@ -17,7 +17,8 @@ export default {
 
 <style>
 html {
-  background-color: navy;
+  background-image: url('./assets/images/milky-way.jpg');
+  background-size: cover;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
