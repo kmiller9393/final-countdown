@@ -1,7 +1,7 @@
 <template>
-    <div class="content">
-        <p>{{ description }}</p>
-    </div>    
+  <div class="content">
+    <p>{{ description }}</p>
+  </div>    
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .content {
   color: #f7f7f7;
   font-weight: 600;
