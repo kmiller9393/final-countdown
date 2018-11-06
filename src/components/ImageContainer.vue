@@ -14,7 +14,7 @@
 
 <script>
 import key from '../assets/key/key.js';
-import Content from './Content';
+import Content from './Content.vue';
 
 const getCurrentDate = () => {
   let date = new Date(),
@@ -66,8 +66,8 @@ export default {
         if (this.spaceImage) {
           return;
         }
-        this.description = result[1].explanation;
         this.spaceImage = result[1].url;
+        this.description = result[1].explanation;
       } catch (error) {
         return error.message;
       }
