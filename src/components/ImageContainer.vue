@@ -15,30 +15,7 @@
 <script>
 import key from '../assets/key/key.js';
 import Content from './Content.vue';
-
-const getCurrentDate = () => {
-  let date = new Date(),
-    month = '' + (date.getMonth() + 1),
-    day = '' + date.getDate(),
-    year = date.getFullYear();
-
-  if (month.length < 2) month = '0' + month;
-  if (day.length < 2) day = '0' + day;
-
-  return [year, month, day].join('-');
-};
-
-const getPreviousDate = () => {
-  let date = new Date(),
-    month = '' + (date.getMonth() + 1),
-    day = '' + date.getDate(),
-    year = date.getFullYear();
-
-  if (month.length < 2) month = '0' + month;
-  if (day.length < 2) day = '0' + (day - 1);
-
-  return [year, month, day].join('-');
-};
+import { getCurrentDate, getPreviousDate } from '../utils/methods/methods.js';
 
 const previousDate = getPreviousDate();
 
