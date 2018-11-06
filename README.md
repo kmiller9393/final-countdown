@@ -1,29 +1,17 @@
 # final-countdown
 
+## Description
+
+Final-Countdown is application that allows the user to view the two most recent Astronomy Pictures of the Day from NASA's APOD API as well as a description of each. This application was built with Vue.js and tested with Jest.
+
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. clone down this repository.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2. `npm install`.
 
-### Run your tests
-```
-npm run test
-```
+3. `npm run serve`
 
-### Lints and fixes files
-```
-npm run lint
-```
+## User Interface
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](<img src="./src/assets/images/final-countdown.png">)
