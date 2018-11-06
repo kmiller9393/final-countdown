@@ -14,4 +14,4 @@ Final-Countdown is application that allows the user to view the two most recent 
 
 ## User Interface
 
-![](<img src="./src/assets/images/final-countdown.png">)
+<img src="./src/assets/images/final-countdown.png">
