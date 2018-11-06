@@ -1,19 +1,16 @@
 <template>
   <div id="app">
     <ImageContainer />
-    <Navigate />
   </div>
 </template>
 
 <script>
 import ImageContainer from './components/ImageContainer.vue';
-import Navigate from './components/Navigate.vue';
 
 export default {
   name: 'app',
   components: {
-    ImageContainer,
-    Navigate
+    ImageContainer
   }
 };
 </script>
