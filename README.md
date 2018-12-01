@@ -6,7 +6,7 @@ Final-Countdown is an application that allows the user to view the two most rece
 
 ## Project setup
 
-1. clone down this repository.
+1. clone down this repository
 
 2. `npm install`
 
